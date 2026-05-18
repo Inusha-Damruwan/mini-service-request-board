@@ -17,11 +17,7 @@ const port = process.env.PORT || 5000;
 app.use(helmet());
 
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'https://mini-service-request-board-roan.vercel.app',
-    'https://mini-service-request-board-z7ii9roid-inusha-damruwans-projects.vercel.app'
-  ],
+  origin: true,
   credentials: true
 }));
 
