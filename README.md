@@ -95,6 +95,17 @@ A beginner-friendly full-stack service request platform built with Next.js 15, T
 - `PATCH /api/jobs/:id`
 - `DELETE /api/jobs/:id`
 
+  ## Live Demo
+
+Frontend:
+https://mini-service-request-board-roan.vercel.app
+
+Backend:
+https://mini-service-request-board-production-f10e.up.railway.app
+
+---
+
+
 ## Notes
 
 - The backend expects a running MongoDB instance.
